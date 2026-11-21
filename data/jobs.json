@@ -1,0 +1,233 @@
+[
+  {
+    "id": "engineering-principal-software",
+    "title": "Principal Software Engineer (Node.js, AWS)",
+    "category": "Engineering",
+    "location": "Telangana / Virtual Office",
+    "city": "Remote / Virtual",
+    "positions": 1,
+    "keywords": ["Node.js", "AWS", "Backend"],
+    "url": "",
+    "source": "presentation"
+  },
+  {
+    "id": "engineering-staff-software",
+    "title": "Staff Software Engineer",
+    "category": "Engineering",
+    "location": "Tamil Nadu / Virtual Office",
+    "city": "Remote / Virtual",
+    "positions": 1,
+    "keywords": ["Software", "Cloud"],
+    "url": "",
+    "source": "presentation"
+  },
+  {
+    "id": "engineering-staff-automation",
+    "title": "Staff Automation Engineer, Platform Engineering",
+    "category": "Engineering",
+    "location": "Chennai / Bengaluru / Hyderabad / Virtual Tamil Nadu",
+    "city": "Multiple locations",
+    "positions": 1,
+    "keywords": ["Automation", "Platform", "Cloud"],
+    "url": "https://genesys.wd1.myworkdayjobs.com/genesys/job/virtual-office-tamil-nadu/staff-automation-engineer--platform-engineering_jr112860-1",
+    "source": "official-posting"
+  },
+  {
+    "id": "engineering-platform",
+    "title": "Senior Engineer, Platform Engineering",
+    "category": "Engineering",
+    "location": "Bengaluru / Hyderabad / Virtual Tamil Nadu",
+    "city": "Multiple locations",
+    "positions": 1,
+    "keywords": ["Genesys Cloud", "CI/CD", "Python", "Node.js"],
+    "url": "",
+    "source": "presentation"
+  },
+  {
+    "id": "engineering-developer-experience",
+    "title": "Senior Software Engineer, Developer Experience",
+    "category": "Engineering",
+    "location": "Bengaluru / Hyderabad / Virtual Tamil Nadu",
+    "city": "Multiple locations",
+    "positions": 1,
+    "keywords": ["Developer Experience", "Platform", "CI/CD"],
+    "url": "",
+    "source": "presentation"
+  },
+  {
+    "id": "engineering-voip",
+    "title": "Senior Software Engineer (SIP / VoIP)",
+    "category": "Engineering",
+    "location": "Tamil Nadu / Virtual Office",
+    "city": "Remote / Virtual",
+    "positions": 1,
+    "keywords": ["SIP", "VoIP", "Voice", "Java"],
+    "url": "",
+    "source": "presentation"
+  },
+  {
+    "id": "engineering-senior-software",
+    "title": "Senior Software Engineer",
+    "category": "Engineering",
+    "location": "Chennai (Flexible)",
+    "city": "Chennai",
+    "positions": 2,
+    "keywords": ["Software", "Engineering", "Backend"],
+    "url": "https://genesys.wd1.myworkdayjobs.com/Genesys/job/Chennai-Flexible/Senior-Software-Engineer_JR112851-1",
+    "source": "official-posting"
+  },
+  {
+    "id": "engineering-software",
+    "title": "Software Engineer",
+    "category": "Engineering",
+    "location": "Chennai / Tamil Nadu",
+    "city": "Chennai",
+    "positions": 2,
+    "keywords": ["Software", "Development"],
+    "url": "",
+    "source": "presentation"
+  },
+  {
+    "id": "engineering-qa",
+    "title": "Application QA Automation Engineer",
+    "category": "Engineering",
+    "location": "India (confirm on official site)",
+    "city": "Multiple locations",
+    "positions": 1,
+    "keywords": ["QA", "Testing", "Automation"],
+    "url": "",
+    "source": "presentation"
+  },
+  {
+    "id": "engineering-av",
+    "title": "AV Design and Collaboration Engineer",
+    "category": "Engineering",
+    "location": "Chennai",
+    "city": "Chennai",
+    "positions": 1,
+    "keywords": ["Audio Visual", "Design", "Collaboration"],
+    "url": "",
+    "source": "presentation"
+  },
+  {
+    "id": "ai-ml",
+    "title": "AI/ML Engineer",
+    "category": "AI & Security",
+    "location": "Hyderabad (Flexible)",
+    "city": "Hyderabad",
+    "positions": 1,
+    "keywords": ["AI", "ML", "Machine Learning"],
+    "url": "https://genesys.wd1.myworkdayjobs.com/Genesys/job/Hyderabad-Flexible/AI-ML-Engineer_JR111853-2",
+    "source": "official-posting"
+  },
+  {
+    "id": "ai-platform",
+    "title": "AI Platform Engineer (Python, AWS)",
+    "category": "AI & Security",
+    "location": "Chennai",
+    "city": "Chennai",
+    "positions": 1,
+    "keywords": ["Python", "AWS", "Artificial Intelligence"],
+    "url": "",
+    "source": "presentation"
+  },
+  {
+    "id": "ai-cloud-security",
+    "title": "Senior AI and Cloud Security Architect",
+    "category": "AI & Security",
+    "location": "Chennai (Flexible)",
+    "city": "Chennai",
+    "positions": 1,
+    "keywords": ["AI", "Security", "Cloud", "Architect"],
+    "url": "",
+    "source": "presentation"
+  },
+  {
+    "id": "applications-developer",
+    "title": "Application Developer",
+    "category": "Applications",
+    "location": "Tamil Nadu",
+    "city": "Multiple locations",
+    "positions": 1,
+    "keywords": ["Development", "Applications"],
+    "url": "",
+    "source": "presentation"
+  },
+  {
+    "id": "applications-salesforce",
+    "title": "Associate Application Developer, Salesforce",
+    "category": "Applications",
+    "location": "Chennai (Flexible)",
+    "city": "Chennai",
+    "positions": 1,
+    "keywords": ["Salesforce", "Apex", "LWC"],
+    "url": "",
+    "source": "presentation"
+  },
+  {
+    "id": "consulting-principal",
+    "title": "Principal PS Consultant",
+    "category": "Consulting",
+    "location": "India (confirm on official site)",
+    "city": "Multiple locations",
+    "positions": 1,
+    "keywords": ["Professional Services", "Consulting"],
+    "url": "",
+    "source": "presentation"
+  },
+  {
+    "id": "consulting-senior",
+    "title": "Senior PS Consultant",
+    "category": "Consulting",
+    "location": "India (confirm on official site)",
+    "city": "Multiple locations",
+    "positions": 1,
+    "keywords": ["Professional Services", "Consulting"],
+    "url": "",
+    "source": "presentation"
+  },
+  {
+    "id": "consulting-ps",
+    "title": "PS Consultant",
+    "category": "Consulting",
+    "location": "Chennai / Bengaluru / Hyderabad / Tamil Nadu",
+    "city": "Multiple locations",
+    "positions": 3,
+    "keywords": ["Professional Services", "Genesys Cloud", "Consulting"],
+    "url": "https://genesys.wd1.myworkdayjobs.com/en-US/Genesys/job/PS-Consultant_JR111918-2",
+    "source": "official-posting"
+  },
+  {
+    "id": "consulting-cx",
+    "title": "CX Advisory Consultant",
+    "category": "Consulting",
+    "location": "Chennai / Bengaluru",
+    "city": "Multiple locations",
+    "positions": 1,
+    "keywords": ["Customer Experience", "CX", "Advisory"],
+    "url": "https://genesys.wd1.myworkdayjobs.com/Genesys/job/Chennai-Flexible/Principal-CX-Advisory-Consultant_JR112336",
+    "source": "related-official-posting"
+  },
+  {
+    "id": "sales-manager",
+    "title": "Senior Manager, Sales",
+    "category": "Sales",
+    "location": "Bengaluru / Tamil Nadu",
+    "city": "Multiple locations",
+    "positions": 1,
+    "keywords": ["Enterprise", "Sales", "Leadership"],
+    "url": "https://genesys.wd1.myworkdayjobs.com/en-US/Genesys/job/Sr-Manager---Sales_JR109956",
+    "source": "official-posting"
+  },
+  {
+    "id": "sales-account-executive",
+    "title": "Senior Account Executive, Growth",
+    "category": "Sales",
+    "location": "Mumbai / Delhi",
+    "city": "Multiple locations",
+    "positions": 2,
+    "keywords": ["Account Executive", "Growth", "Sales"],
+    "url": "https://genesys.wd1.myworkdayjobs.com/en-US/Genesys/job/Senior-Account-Executive--CMM_JR111727",
+    "source": "official-posting"
+  }
+]

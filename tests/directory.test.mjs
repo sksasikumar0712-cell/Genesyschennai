@@ -1,0 +1,13 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import { positionCount,filterRoles,searchUrl,escaped,cityChoices } from '../src/logic.js';
+const jobs = JSON.parse(fs.readFileSync(new URL('../data/jobs.json', import.meta.url),'utf8'));
+const base = {query:'',category:'',city:''};
+test('26 positions are represented by 21 unique titles',()=>{assert.equal(jobs.length,21);assert.equal(positionCount(jobs),26)});
+test('category breakdown matches hiring slide',()=>{assert.deepEqual(Object.fromEntries(['Engineering','AI & Security','Applications','Consulting','Sales'].map(c=>[c,positionCount(jobs.filter(j=>j.category===c))])),{Engineering:12,'AI & Security':3,Applications:2,Consulting:6,Sales:3})});
+test('keyword and filter searches work',()=>{assert.equal(filterRoles(jobs,{...base,query:'aws'}).length>0,true);assert.equal(filterRoles(jobs,{...base,category:'AI & Security'}).length,3);assert.ok(filterRoles(jobs,{...base,city:'Hyderabad'}).every(j=>j.city==='Hyderabad'))});
+test('search URL stays on official Genesys Workday',()=>{const u=new URL(searchUrl('Senior Software Engineer & AI'));assert.equal(u.hostname,'genesys.wd1.myworkdayjobs.com');assert.equal(u.searchParams.get('q'),'Senior Software Engineer & AI')});
+test('escapes HTML correctly',()=>{assert.equal(escaped('<script>&"'), '&lt;script&gt;&amp;&quot;')});
+test('city list unique and nonempty',()=>{assert.equal(cityChoices(jobs).length,new Set(jobs.map(j=>j.city)).size)});
+test('official links use only Genesys Workday',()=>{for (const job of jobs) {if (!job.url)continue;const u=new URL(job.url);assert.equal(u.hostname,'genesys.wd1.myworkdayjobs.com');assert.match(u.pathname,/\/job\//i)}});
